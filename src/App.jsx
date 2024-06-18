@@ -11,7 +11,6 @@ export default function App() {
   });
 
   const handleClick = (buttonName) => {
-    console.log("ButtonName in App.jsx:", buttonName);
     SetState(calculate(state, buttonName));
   };
 

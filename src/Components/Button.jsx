@@ -1,7 +1,6 @@
 const Button = ({ name, clickHandler, orange, wide }) => {
   const handleClick = (e) => {
     clickHandler(e.target.value);
-    // console.log("button.jsx:- ", clickHandler);
   };
   return (
     <div

@@ -1,6 +1,5 @@
 import Button from "./Button";
 const ButtonPanel = ({ handleClick }) => {
-  console.log("Button Panel:- ", handleClick);
   return (
     <div className="border-2 rounded-md border-black min-w-48 max-w-48 mt-2">
       <div className="grid grid-cols-4 gap-2 px-2 mt-2">
